@@ -4,43 +4,58 @@ This project is a learning resource for building an e-commerce application using
 
 ## Requirements
 
-- PHP 8.1+
-- Laravel v10.0+
-- Livewire v3.0+
-- Composer
-- Node.js & npm
-- MySQL or any other supported database
+-   PHP 8.1+
+-   Laravel v10.0+
+-   Livewire v3.0+
+-   Composer
+-   Node.js & npm
+-   MySQL
+
+## Technology Used
+
+-   **Laravel**: A PHP framework for web artisans.
+-   **Filament**: A collection of tools for rapidly building beautiful TALL stack applications.
+-   **Livewire**: A full-stack framework for Laravel that makes building dynamic interfaces simple.
+-   **Tailwind CSS**: A utility-first CSS framework.
+-   **Alpine.js**: A rugged, minimal framework for composing JavaScript behavior in your HTML.
+-   **Laravel Breeze**: A minimal, simple implementation of all of Laravel's authentication features.
 
 ## Installation
 
 1. **Clone the repository:**
+
     ```bash
     git clone https://github.com/yourusername/e-commerce-laravel-filament.git
     cd e-commerce-laravel-filament
     ```
 
 2. **Install dependencies:**
+
     ```bash
     composer install
     npm install
     ```
 
 3. **Copy the `.env.example` file to `.env` and configure your environment variables:**
+
     ```bash
     cp .env.example .env
     ```
 
 4. **Generate an application key:**
+
     ```bash
     php artisan key:generate
     ```
 
 5. **Run the migrations:**
+
     ```bash
     php artisan migrate
     ```
 
 6. **Seed the database (optional):**
+
     ```bash
     php artisan db:seed
     ```
@@ -53,6 +68,7 @@ This project is a learning resource for building an e-commerce application using
 ## Running the Project
 
 Start the development server:
+
 ```bash
 php artisan serve
 ```
@@ -61,7 +77,7 @@ You can now access the application at `http://localhost:8000`.
 
 ## Learning Resources
 
-- [Laravel Documentation](https://laravel.com/docs)
-- [Filament Documentation](https://filamentphp.com/docs)
+-   [Laravel Documentation](https://laravel.com/docs)
+-   [Filament Documentation](https://filamentphp.com/docs)
 
 Happy coding!
